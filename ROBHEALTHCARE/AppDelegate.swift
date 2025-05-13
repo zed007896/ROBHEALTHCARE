@@ -1,5 +1,4 @@
 
-ad your GoogleSigninViewController.
 import UIKit
 
     @main
@@ -16,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func setUpRoot() {
-        let startUpPageVC = ()
+        let startUpPageVC = loginViewController()
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = UINavigationController(rootViewController: startUpPageVC)

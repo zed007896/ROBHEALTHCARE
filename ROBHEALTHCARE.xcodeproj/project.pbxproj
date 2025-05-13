@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE340EBA2DD2C3C000D248A4 /* LoginStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE340EB92DD2C3C000D248A4 /* LoginStruct.swift */; };
+		CE340EBC2DD2C3F900D248A4 /* loginresponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE340EBB2DD2C3F900D248A4 /* loginresponse.swift */; };
+		CE340EBE2DD2C7C800D248A4 /* networkmanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE340EBD2DD2C7C800D248A4 /* networkmanger.swift */; };
 		CE9C7F522DC7C1B8005D67DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C7F512DC7C1B8005D67DB /* AppDelegate.swift */; };
 		CE9C7F542DC7C1B8005D67DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C7F532DC7C1B8005D67DB /* SceneDelegate.swift */; };
 		CE9C7F562DC7C1B8005D67DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C7F552DC7C1B8005D67DB /* ViewController.swift */; };
@@ -15,9 +18,16 @@
 		CE9C7F5E2DC7C1BA005D67DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9C7F5C2DC7C1BA005D67DB /* LaunchScreen.storyboard */; };
 		CED03B0C2DD27F9F009E7E5F /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED03B0A2DD27F9F009E7E5F /* loginViewController.swift */; };
 		CED03B0D2DD27F9F009E7E5F /* loginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED03B0B2DD27F9F009E7E5F /* loginViewController.xib */; };
+		CED03B102DD28BDE009E7E5F /* googleloginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED03B0E2DD28BDE009E7E5F /* googleloginViewController.swift */; };
+		CED03B112DD28BDE009E7E5F /* googleloginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED03B0F2DD28BDE009E7E5F /* googleloginViewController.xib */; };
+		CED03B1C2DD28EE9009E7E5F /* DoctorDetialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED03B1A2DD28EE9009E7E5F /* DoctorDetialsViewController.swift */; };
+		CED03B1D2DD28EE9009E7E5F /* DoctorDetialsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED03B1B2DD28EE9009E7E5F /* DoctorDetialsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE340EB92DD2C3C000D248A4 /* LoginStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStruct.swift; sourceTree = "<group>"; };
+		CE340EBB2DD2C3F900D248A4 /* loginresponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginresponse.swift; sourceTree = "<group>"; };
+		CE340EBD2DD2C7C800D248A4 /* networkmanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkmanger.swift; sourceTree = "<group>"; };
 		CE9C7F4E2DC7C1B8005D67DB /* ROBHEALTHCARE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROBHEALTHCARE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9C7F512DC7C1B8005D67DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9C7F532DC7C1B8005D67DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +38,10 @@
 		CE9C7F5F2DC7C1BA005D67DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED03B0A2DD27F9F009E7E5F /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		CED03B0B2DD27F9F009E7E5F /* loginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loginViewController.xib; sourceTree = "<group>"; };
+		CED03B0E2DD28BDE009E7E5F /* googleloginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleloginViewController.swift; sourceTree = "<group>"; };
+		CED03B0F2DD28BDE009E7E5F /* googleloginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = googleloginViewController.xib; sourceTree = "<group>"; };
+		CED03B1A2DD28EE9009E7E5F /* DoctorDetialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetialsViewController.swift; sourceTree = "<group>"; };
+		CED03B1B2DD28EE9009E7E5F /* DoctorDetialsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorDetialsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +81,15 @@
 				CE9C7F5A2DC7C1BA005D67DB /* Assets.xcassets */,
 				CE9C7F5C2DC7C1BA005D67DB /* LaunchScreen.storyboard */,
 				CE9C7F5F2DC7C1BA005D67DB /* Info.plist */,
-				CED03B0A2DD27F9F009E7E5F /* loginViewController.swift */,
+				CED03B0F2DD28BDE009E7E5F /* googleloginViewController.xib */,
+				CED03B1A2DD28EE9009E7E5F /* DoctorDetialsViewController.swift */,
+				CE340EB92DD2C3C000D248A4 /* LoginStruct.swift */,
+				CE340EBB2DD2C3F900D248A4 /* loginresponse.swift */,
+				CED03B1B2DD28EE9009E7E5F /* DoctorDetialsViewController.xib */,
+				CED03B0E2DD28BDE009E7E5F /* googleloginViewController.swift */,
 				CED03B0B2DD27F9F009E7E5F /* loginViewController.xib */,
+				CED03B0A2DD27F9F009E7E5F /* loginViewController.swift */,
+				CE340EBD2DD2C7C800D248A4 /* networkmanger.swift */,
 			);
 			path = ROBHEALTHCARE;
 			sourceTree = "<group>";
@@ -131,9 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED03B1D2DD28EE9009E7E5F /* DoctorDetialsViewController.xib in Resources */,
 				CED03B0D2DD27F9F009E7E5F /* loginViewController.xib in Resources */,
 				CE9C7F5E2DC7C1BA005D67DB /* LaunchScreen.storyboard in Resources */,
 				CE9C7F5B2DC7C1BA005D67DB /* Assets.xcassets in Resources */,
+				CED03B112DD28BDE009E7E5F /* googleloginViewController.xib in Resources */,
 				CE9C7F592DC7C1B8005D67DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED03B0C2DD27F9F009E7E5F /* loginViewController.swift in Sources */,
+				CED03B102DD28BDE009E7E5F /* googleloginViewController.swift in Sources */,
 				CE9C7F562DC7C1B8005D67DB /* ViewController.swift in Sources */,
 				CE9C7F522DC7C1B8005D67DB /* AppDelegate.swift in Sources */,
+				CED03B1C2DD28EE9009E7E5F /* DoctorDetialsViewController.swift in Sources */,
 				CE9C7F542DC7C1B8005D67DB /* SceneDelegate.swift in Sources */,
+				CE340EBE2DD2C7C800D248A4 /* networkmanger.swift in Sources */,
+				CE340EBC2DD2C3F900D248A4 /* loginresponse.swift in Sources */,
+				CE340EBA2DD2C3C000D248A4 /* LoginStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
