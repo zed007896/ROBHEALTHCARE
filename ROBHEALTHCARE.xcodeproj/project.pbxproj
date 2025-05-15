@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1017E762DD424B400710D0E /* MedicalCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1017E742DD424B400710D0E /* MedicalCenterVC.swift */; };
+		A1017E772DD424B400710D0E /* MedicalCenterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1017E752DD424B400710D0E /* MedicalCenterVC.xib */; };
+		A1017E7A2DD4BC6200710D0E /* AllCategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1017E782DD4BC6200710D0E /* AllCategoriesVC.swift */; };
+		A1017E7B2DD4BC6200710D0E /* AllCategoriesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1017E792DD4BC6200710D0E /* AllCategoriesVC.xib */; };
+		A1017E7E2DD4FA5E00710D0E /* AllCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1017E7C2DD4FA5D00710D0E /* AllCategoriesCell.swift */; };
+		A1017E7F2DD4FA5E00710D0E /* AllCategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1017E7D2DD4FA5E00710D0E /* AllCategoriesCell.xib */; };
+		A1017E862DD535E400710D0E /* DoctorsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1017E842DD535E400710D0E /* DoctorsCellTableViewCell.swift */; };
+		A1017E872DD535E400710D0E /* DoctorsCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1017E852DD535E400710D0E /* DoctorsCellTableViewCell.xib */; };
+		A1017E892DD5445400710D0E /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1017E882DD5445400710D0E /* DoctorModel.swift */; };
+		A18B43212DD1D9EC00859331 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B431F2DD1D9EC00859331 /* HomeViewController.swift */; };
+		A18B43222DD1D9EC00859331 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18B43202DD1D9EC00859331 /* HomeViewController.xib */; };
+		A18B432A2DD29EB800859331 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B43292DD29EB800859331 /* CategoryCell.swift */; };
+		A18B43302DD2C0D200859331 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18B432F2DD2C0D200859331 /* CategoryCell.xib */; };
 		CE9C7F522DC7C1B8005D67DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C7F512DC7C1B8005D67DB /* AppDelegate.swift */; };
-		CE9C7F542DC7C1B8005D67DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C7F532DC7C1B8005D67DB /* SceneDelegate.swift */; };
 		CE9C7F562DC7C1B8005D67DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C7F552DC7C1B8005D67DB /* ViewController.swift */; };
 		CE9C7F592DC7C1B8005D67DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9C7F572DC7C1B8005D67DB /* Main.storyboard */; };
 		CE9C7F5B2DC7C1BA005D67DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9C7F5A2DC7C1BA005D67DB /* Assets.xcassets */; };
@@ -16,9 +28,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1017E742DD424B400710D0E /* MedicalCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalCenterVC.swift; sourceTree = "<group>"; };
+		A1017E752DD424B400710D0E /* MedicalCenterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicalCenterVC.xib; sourceTree = "<group>"; };
+		A1017E782DD4BC6200710D0E /* AllCategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesVC.swift; sourceTree = "<group>"; };
+		A1017E792DD4BC6200710D0E /* AllCategoriesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllCategoriesVC.xib; sourceTree = "<group>"; };
+		A1017E7C2DD4FA5D00710D0E /* AllCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesCell.swift; sourceTree = "<group>"; };
+		A1017E7D2DD4FA5E00710D0E /* AllCategoriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllCategoriesCell.xib; sourceTree = "<group>"; };
+		A1017E842DD535E400710D0E /* DoctorsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsCellTableViewCell.swift; sourceTree = "<group>"; };
+		A1017E852DD535E400710D0E /* DoctorsCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorsCellTableViewCell.xib; sourceTree = "<group>"; };
+		A1017E882DD5445400710D0E /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
+		A18B431F2DD1D9EC00859331 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A18B43202DD1D9EC00859331 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A18B43292DD29EB800859331 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		A18B432F2DD2C0D200859331 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
 		CE9C7F4E2DC7C1B8005D67DB /* ROBHEALTHCARE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROBHEALTHCARE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9C7F512DC7C1B8005D67DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE9C7F532DC7C1B8005D67DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE9C7F552DC7C1B8005D67DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE9C7F582DC7C1B8005D67DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE9C7F5A2DC7C1BA005D67DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,12 +81,24 @@
 			isa = PBXGroup;
 			children = (
 				CE9C7F512DC7C1B8005D67DB /* AppDelegate.swift */,
-				CE9C7F532DC7C1B8005D67DB /* SceneDelegate.swift */,
 				CE9C7F552DC7C1B8005D67DB /* ViewController.swift */,
 				CE9C7F572DC7C1B8005D67DB /* Main.storyboard */,
 				CE9C7F5A2DC7C1BA005D67DB /* Assets.xcassets */,
 				CE9C7F5C2DC7C1BA005D67DB /* LaunchScreen.storyboard */,
 				CE9C7F5F2DC7C1BA005D67DB /* Info.plist */,
+				A18B431F2DD1D9EC00859331 /* HomeViewController.swift */,
+				A18B43202DD1D9EC00859331 /* HomeViewController.xib */,
+				A18B43292DD29EB800859331 /* CategoryCell.swift */,
+				A18B432F2DD2C0D200859331 /* CategoryCell.xib */,
+				A1017E742DD424B400710D0E /* MedicalCenterVC.swift */,
+				A1017E752DD424B400710D0E /* MedicalCenterVC.xib */,
+				A1017E782DD4BC6200710D0E /* AllCategoriesVC.swift */,
+				A1017E792DD4BC6200710D0E /* AllCategoriesVC.xib */,
+				A1017E7C2DD4FA5D00710D0E /* AllCategoriesCell.swift */,
+				A1017E7D2DD4FA5E00710D0E /* AllCategoriesCell.xib */,
+				A1017E842DD535E400710D0E /* DoctorsCellTableViewCell.swift */,
+				A1017E852DD535E400710D0E /* DoctorsCellTableViewCell.xib */,
+				A1017E882DD5445400710D0E /* DoctorModel.swift */,
 			);
 			path = ROBHEALTHCARE;
 			sourceTree = "<group>";
@@ -125,9 +161,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18B43302DD2C0D200859331 /* CategoryCell.xib in Resources */,
 				CE9C7F5E2DC7C1BA005D67DB /* LaunchScreen.storyboard in Resources */,
+				A1017E7B2DD4BC6200710D0E /* AllCategoriesVC.xib in Resources */,
 				CE9C7F5B2DC7C1BA005D67DB /* Assets.xcassets in Resources */,
 				CE9C7F592DC7C1B8005D67DB /* Main.storyboard in Resources */,
+				A1017E872DD535E400710D0E /* DoctorsCellTableViewCell.xib in Resources */,
+				A1017E7F2DD4FA5E00710D0E /* AllCategoriesCell.xib in Resources */,
+				A18B43222DD1D9EC00859331 /* HomeViewController.xib in Resources */,
+				A1017E772DD424B400710D0E /* MedicalCenterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +181,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9C7F562DC7C1B8005D67DB /* ViewController.swift in Sources */,
+				A1017E7E2DD4FA5E00710D0E /* AllCategoriesCell.swift in Sources */,
+				A1017E862DD535E400710D0E /* DoctorsCellTableViewCell.swift in Sources */,
 				CE9C7F522DC7C1B8005D67DB /* AppDelegate.swift in Sources */,
-				CE9C7F542DC7C1B8005D67DB /* SceneDelegate.swift in Sources */,
+				A18B43212DD1D9EC00859331 /* HomeViewController.swift in Sources */,
+				A18B432A2DD29EB800859331 /* CategoryCell.swift in Sources */,
+				A1017E7A2DD4BC6200710D0E /* AllCategoriesVC.swift in Sources */,
+				A1017E762DD424B400710D0E /* MedicalCenterVC.swift in Sources */,
+				A1017E892DD5445400710D0E /* DoctorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
